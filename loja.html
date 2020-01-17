@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+ 	<title>DMwear - Loja</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    <link rel="stylesheet" type="text/css" href="css/letras.css"> 
+    <link rel="stylesheet" type="text/css" href="css/csshake.css">   
+</head>
+
+<body>
+
+    <!------------------------- menu ------------------------->
+    <div class="area"></div>
+    <nav class="main-menu">
+            <ul>
+                <li>
+                    <a href="index.html">                        
+                        <div class="fa">
+                            <img class="icons" src="icons/home.png">
+                        </div>
+                        <span class="nav-text">Início</span>
+                    </a>                  
+                </li>
+                <li>
+                    <a href="#">                        
+                        <div  class="fa menuactive">
+                            <img class="icons" src="icons/cart_active.png">
+                        </div>
+                        <span class="nav-text menuactive">Loja</span>
+                    </a>
+                    
+                </li>
+
+                <li>
+                    <a href="marcas.html">                       
+                        <div class="fa">
+                            <img class="icons" src="icons/tag.png">
+                        </div>
+                        <span class="nav-text">Marcas</span>
+                    </a>                   
+                </li> 
+
+                <li>
+                    <a href="sobre.html">                       
+                        <div class="fa">
+                            <img class="icons" src="icons/about.png">
+                        </div>
+                        <span class="nav-text">Sobre</span>
+                    </a>
+                    
+                </li>                               
+            </ul>
+
+            <ul class="ultima">
+                <li>
+                   <a href="https://github.com/pedro-costa98" target="_blank">
+                        
+                        <div class="fa">
+                            <img class="icons" src="icons/github.png">
+                        </div>
+                        <span class="nav-text">GitHub</span>
+                    </a>
+                </li>  
+            </ul>
+    </nav>
+    <!----------------------------------------------------------------------------------->
+
+
+    <!---------------------------logo no topo da página em pequeno------------------------------->
+
+    <div id="titulo-pequeno">
+
+        <!----------------------------------logo com efeito js------------------------------------->
+        <br>
+        <div id="titulo">
+            <h1 class="ml12">DM Wear</h1>
+        </div>
+
+        <!-----------------------------sub-logo com efeito js----------------------------------->
+
+        <div id="sub-titulo">
+            <h1 class="ml11">
+              <span class="text-wrapper">
+                
+                <span class="letters">Só Grandes Marcas</span>
+              </span>
+            </h1>
+        </div>        
+    </div>
+    <!---------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+    
+
+    <div class="container gridloja" align="center">
+
+        <!-----------------------------titulo loja--------------------------------------->
+        <div class="ml10 tituloloja">
+
+        <p class="letters">Bem-vindo à nossa loja</p>
+
+        </div>
+        <!--------------------------------------------------------------------------->
+
+        <!----------------------------------GRID--------------------------------------------->
+
+        <!--------------------------------MARCA 1 ------------------------------------>
+
+
+      <div class="row" >
+        <div class="col-sm">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/produtos/adidas_sweat.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title textprod"><span id="adidasPROD1"></span></h5>
+                    <p class="card-text"><span id="adidasPRECO1"></span> €</p>
+                    <a href="#" class="btn btn-warning shake" data-toggle="modal" data-target=".bd-example-modal-sm">Adicionar ao <img src="icons/cart.png" class="cart"></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+          <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/produtos/adidas_calcas.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title textprod"><span id="adidasPROD2"></span></h5>
+                    <p class="card-text"><span id="adidasPRECO2"></span> €</p>
+                    <a href="#" class="btn btn-warning shake" data-toggle="modal" data-target=".bd-example-modal-sm">Adicionar ao <img src="icons/cart.png" class="cart"></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+          <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/produtos/adidas_tenis.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title textprod"><span id="adidasPROD3"></span></h5>
+                    <p class="card-text"><span id="adidasPRECO3"></span> €</p>
+                    <a href="#" class="btn btn-warning shake" data-toggle="modal" data-target=".bd-example-modal-sm">Adicionar ao <img src="icons/cart.png" class="cart"></a>
+                </div>
+            </div>
+        </div>
+       
+       </div>
+
+        <!-------------------------------card horizontal MARCA 1----------------------------->
+        <br>
+
+        <div class="card mb-3" style="max-width: 1050px;">
+          <div class="row no-gutters" align="left">
+            <div class="col-md-4">
+              <img src="img/marcas/adidas_logo.png" class="card-img" alt="..." height="220px">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title conjuntos"><b>CONJUNTO ADIDAS</b></h5>
+                <p class="card-text">Adquira o conjunto completo Adidas por <b><span id="adidasSOMA"></span> €</b></p><br>           
+
+                
+                <a href="#" class="btn btn-secondary shake" data-toggle="modal" data-target=".bd-example-modal-sm">Adicionar ao <img src="icons/cart.png" class="cart"></a>
+                <p class="card-text"><small class="text-muted">Limitado ao stock existente</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---------------------------------------------------------------------------------------->
+
+        <br>
+
+        <!-----------------------------------MARCA 2---------------------------------------------->
+
+
+      <div class="row" >
+        <div class="col-sm">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/produtos/nike_sweat.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title textprod"><span id="nikePROD1"></span></h5>
+                    <p class="card-text"><span id="nikePRECO1"></span> €</p>
+                    <a href="#" class="btn btn-warning shake" data-toggle="modal" data-target=".bd-example-modal-sm">Adicionar ao <img src="icons/cart.png" class="cart"></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+          <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/produtos/nike_calcas.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title textprod"><span id="nikePROD2"></span></h5>
+                    <p class="card-text"><span id="nikePRECO2"></span> €</p>
+                    <a href="#" class="btn btn-warning shake" data-toggle="modal" data-target=".bd-example-modal-sm">Adicionar ao <img src="icons/cart.png" class="cart"></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+          <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/produtos/nike_tenis.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title textprod"><span id="nikePROD3"></span></h5>
+                    <p class="card-text"><span id="nikePRECO3"></span> €</p>
+                    <a href="#" class="btn btn-warning shake" data-toggle="modal" data-target=".bd-example-modal-sm">Adicionar ao <img src="icons/cart.png" class="cart"></a>
+                </div>
+            </div>
+        </div>
+       
+       </div>
+
+        <!--------------------------------card horizontal MARCA 2----------------------------------->
+        <br>
+
+        <div class="card mb-3" style="max-width: 1050px;">
+          <div class="row no-gutters" align="left">
+            
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title conjuntos"><b>CONJUNTO NIKE</b></h5>
+                <p class="card-text">Adquira o conjunto completo Nike por <b><span id="nikeSOMA"></span> €</b></p><br>            
+
+                
+                <a href="#" class="btn btn-secondary shake" data-toggle="modal" data-target=".bd-example-modal-sm">Adicionar ao <img src="icons/cart.png" class="cart"></a>
+                <p class="card-text"><small class="text-muted">Limitado ao stock existente</small></p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <img src="img/marcas/nike_logo.jpg" class="card-img" alt="..." height="220px">
+            </div>
+          </div>
+        </div>
+        <!---------------------------------------------------------------------------------------->
+
+
+        <br>
+
+        
+        <!------------------------------------MARCA 3----------------------------------------->
+
+
+      <div class="row" >
+        <div class="col-sm">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/produtos/gucci_sweat.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title textprod"><span id="gucciPROD1"></span></h5>
+                    <p class="card-text"><span id="gucciPRECO1"></span> €</p>
+                    <a href="#" class="btn btn-warning shake" data-toggle="modal" data-target=".bd-example-modal-sm">Adicionar ao <img src="icons/cart.png" class="cart"></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+          <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/produtos/gucci_calcas.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title textprod"><span id="gucciPROD2"></span></h5>
+                    <p class="card-text"><span id="gucciPRECO2"></span> €</p>
+                    <a href="#" class="btn btn-warning shake" data-toggle="modal" data-target=".bd-example-modal-sm">Adicionar ao <img src="icons/cart.png" class="cart"></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+          <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/produtos/gucci_sandal.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title textprod"><span id="gucciPROD3"></span></h5>
+                    <p class="card-text"><span id="gucciPRECO3"></span> €</p>
+                    <a href="#" class="btn btn-warning shake" data-toggle="modal" data-target=".bd-example-modal-sm">Adicionar ao <img src="icons/cart.png" class="cart"></a>
+                </div>
+            </div>
+        </div>
+       
+       </div>
+
+
+       
+
+        <!-------------------------------card horizontal MARCA 3----------------------------->
+        <br>
+
+        <div class="card mb-3" style="max-width: 1050px;">
+          <div class="row no-gutters" align="left">
+            <div class="col-md-4">
+              <img src="img/marcas/gucci_logo.jpg" class="card-img" alt="..." height="220px">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title conjuntos" ><b>CONJUNTO GUCCI</b></h5>
+                <p class="card-text">Adquira o conjunto completo Gucci por <b><span id="gucciSOMA"></span> €</b></p><br>           
+
+                
+                <a href="#" class="btn btn-secondary shake" data-toggle="modal" data-target=".bd-example-modal-sm">Adicionar ao <img src="icons/cart.png" class="cart"></a>
+                <p class="card-text"><small class="text-muted">Limitado ao stock existente</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!------------------------------------------------------------------------------------>
+        <!-----------------------------------popup oops--------------------------------------->
+
+
+            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="semconta">
+                        <br>
+                        
+                          
+                        <h2><span class="spinner-grow text-danger" role="status"></span> Oops...</h2>
+                        <p>Você não possui conta no nosso site.</p>
+                    </div>
+                  
+                </div>
+              </div>
+            </div>
+        <!---------------------------------------------------------------------------------------->
+
+        <!-------------------------------------FIM DA GRID----------------------------------------->
+
+
+
+    </div>
+    
+
+    <br><br>
+
+    <!------------------------footer ------------------------------>
+
+    <div class="container">
+      <div class="boxfooter">
+        <h2 align="center">&#169;DMwear - 2019</h2>
+        <p align="center">21574 Pedro Costa - Todos os direitos reservados</p>
+      </div>
+    </div>
+
+    <!------------------------------------------------------------->
+
+
+
+
+
+
+    <!---------------------------------scripts--------------------------------------->
+
+    <script src="javascript/jquery-3.4.1.slim.min.js"></script>
+   
+    <script src="javascript/popper.min.js"></script>
+
+    <script src="bootstrap4.4.1/js/bootstrap.min.js"></script>
+
+
+    <script src="javascript/anime.min.js"></script>
+    <script src="javascript/letras.js"></script>
+
+    <script src="javascript/jquery.min.js"></script>    
+    <script src="javascript/precos.js"></script>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+  
+{
+	"adidas":[
+		{"produto":"Sweatshirt 3-Stripes", "preco": 49.95},
+		{"produto":"Calças Outline", "preco": 64.95},
+		{"produto":"Sapatos NMD_R1", "preco": 149.95}
+	],
+
+	"nike": [
+		{"produto":"Jordan Legacy AJ11", "preco": 80.00},
+		{"produto":"Nike Shield Phenom", "preco": 80.00},
+		{"produto":"Jordan Mars 270", "preco": 111.97}
+	],
+
+	"gucci": [
+		{"produto":"Gucci Logo Sweatshirt", "preco": 2500.00},
+		{"produto":"Loose Technical", "preco": 850.00},
+		{"produto":"Web Slide Sandal", "preco": 195.00}
+	]
+}
